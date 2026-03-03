@@ -19,7 +19,7 @@ export default function Home() {
 
   // Derived state
   const selectedIntegration = useMemo(() =>
-    integrationsData.integrations.find(i => i.id === selectedIntegId),
+    integrationsData.integrations.find(i => i.id === selectedIntegId) as any,
     [selectedIntegId]
   )
 
@@ -41,7 +41,7 @@ export default function Home() {
   // Group by category for the list
   const groupedIntegrations = useMemo(() => {
     const groups: { [key: string]: any[] } = {}
-    filteredIntegrations.forEach(integ => {
+    filteredIntegrations.forEach((integ: any) => {
       if (!groups[integ.category]) groups[integ.category] = []
       groups[integ.category].push(integ)
     })
