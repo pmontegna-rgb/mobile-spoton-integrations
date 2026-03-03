@@ -1,0 +1,831 @@
+{
+  "strategy": {
+    "title": "Innovation Strategy",
+    "description": "Every integration is an investment. We focus on integrations that deliver the most value to restaurants with the least complexity.",
+    "points": [
+      {
+        "id": "roi",
+        "number": "01",
+        "title": "Clear ROI",
+        "description": "SpotOn only invests in integrations that solve real operational needs and deliver a return on investment to our clients.",
+        "icon": "vibrate"
+      },
+      {
+        "id": "scalable",
+        "number": "02",
+        "title": "Scalable & Intuitive",
+        "description": "We build fast and friendly APIs while ensuring getting your team up and running is fast and simple.",
+        "icon": "zap"
+      },
+      {
+        "id": "research",
+        "number": "03",
+        "title": "R&D Focus",
+        "description": "By choosing quality over quantity, we can focus our R&D efforts on products and features that matter most to you.",
+        "icon": "shield-check"
+      }
+    ]
+  },
+  "categories": [
+    {
+      "id": "management",
+      "name": "Restaurant Management"
+    },
+    {
+      "id": "labor",
+      "name": "Labor Management"
+    },
+    {
+      "id": "fulfillment",
+      "name": "Fulfillment"
+    },
+    {
+      "id": "ordering",
+      "name": "Ordering"
+    },
+    {
+      "id": "guest",
+      "name": "Guest Experience"
+    },
+    {
+      "id": "bar",
+      "name": "Bar & Inventory"
+    }
+  ],
+  "integrations": [
+    {
+      "id": "restaurant-365",
+      "name": "Restaurant 365",
+      "category": "management",
+      "description": "Restaurant 365 (R365) is a cloud-based accounting, payroll, HR, food and beverage inventory, and scheduling software for restaurants.",
+      "integration": "This integration sends order and labor data from the SpotOn Restaurant POS to R365. This is a Read-Only Integration.",
+      "benefits": [
+        "Streamlined scheduling",
+        "Access labor metrics for all",
+        "restaurant locations with POS sales data so you can make smarter schedules.",
+        "Automatic reconciliation",
+        "Remove the stress of organizing finances by having all the information you need combined in",
+        "one system.",
+        "Cost management",
+        "R365 maps recipes to the SpotOn Restaurant POS to track ingredient usage and recipe costs, so you can understand the popularity and profitability of menu items."
+      ],
+      "additionalInfo": "",
+      "compatibility": [
+        "RPOS"
+      ],
+      "preferred": true,
+      "startingPrice": "",
+      "website": "https://www.restaurant365.com"
+    },
+    {
+      "id": "margin-edge",
+      "name": "Margin Edge",
+      "category": "management",
+      "description": "MarginEdge is a recipe cost- t racking and restaurant inventory management solution.",
+      "integration": "MarginEdge uses invoice and sales data from SpotOn POS to track theoretical vs. actual food costs. MarginEdge can automatically push Sales (credits &amp; debits) data into QuickBooks Online",
+      "benefits": [
+        "Increase profit margins.",
+        "With real-time POS data and invoice data, MarginEdge will give insight into food &amp; recipe costs and track actual vs. theoretical costs.",
+        "Greater visibility.",
+        "If you have multiple locations you will get visibility into performance and summaries across all locations, allowing you to improve where needed.",
+        "Increase customer satisfaction.",
+        "With SpotOn sales data, MarginEdge will help control quality, consistency, and costs more directly. This will allow you to produce the same plate every time,at every location."
+      ],
+      "additionalInfo": "",
+      "compatibility": [
+        "RPOS",
+        "Express"
+      ],
+      "preferred": true,
+      "startingPrice": "$330/mo",
+      "website": "https://me.marginedge.com/spoton"
+    },
+    {
+      "id": "shogo",
+      "name": "Shogo",
+      "category": "management",
+      "description": "Shogo is a connector for POS to Accounting rather than an actual accounting system. Shogo transfers sales data, payment types, and taxes to an accounting software of the merchants choosing amongst their integration list.",
+      "integration": "SpotOn Restaurant POS shares sales data, payments, and taxes to Shogo.io.",
+      "benefits": [
+        "Connect POS data to your accounting software.",
+        "Shogo packages up the data from SpotOn and delivers it to our users’ restaurant management and accounting platforms."
+      ],
+      "additionalInfo": "",
+      "compatibility": [
+        "RPOS",
+        "Express"
+      ],
+      "preferred": true,
+      "startingPrice": "$35/mo/location",
+      "website": "https://shogo.io/"
+    },
+    {
+      "id": "davo-by-avalara",
+      "name": "Davo by Avalara",
+      "category": "management",
+      "description": "DAVO is a sales tax automation service that connects to SpotOn, sets aside the exact sales tax you collect daily, and automatically files and pays it to the state on time - guaranteed .",
+      "integration": "Automatically pulls SpotOn Restaurant POS sales and order data.",
+      "benefits": [
+        "One-time setup:",
+        "Complete a simple setup, and DAVO takes care of the rest",
+        "Daily collection:",
+        "DAVO collects and sets aside sales tax daily using data from your SpotOn system",
+        ".",
+        "Automatic filing:",
+        "DAVO automatically files your state sales tax on time, guaranteed",
+        "On-time Filing Discounts:",
+        "State sales tax discounts are automatically calculated, collected and refunded"
+      ],
+      "additionalInfo": "DAVO can help merchants who have fallen behind on sales tax. DAVO Sales Tax can help keep you out of trouble moving forward. If they are falling behind on paying sales tax, or want to reduce stress consider trying DAVO. Demo video SpotOn x DAVO sell shee t",
+      "compatibility": [
+        "RPOS",
+        "Express"
+      ],
+      "preferred": true,
+      "startingPrice": "$57.99/mo",
+      "website": ""
+    },
+    {
+      "id": "tenzo",
+      "name": "Tenzo",
+      "category": "management",
+      "description": "Tenzo is a restaurant analytics &amp; sales forecasting platform that integrates with POS, labor management, inventory, and social media providers.",
+      "integration": "The SpotOn Restaurant POS sends sales and transaction data to Tenzo.",
+      "benefits": [
+        "Deeper insights.",
+        "Utilizing SpotOn POS data and Tenzo will lead to better sales forecasts of the client’s restaurant. Tenzo considers weather, local events, and more to see which aspects affect sales.",
+        "Accurate inventory management.",
+        "With SpotOn sales data, Tenzo forecasts inventory demand and informs clients how much they will need to order and prep.",
+        "Increase revenue.",
+        "Decreasing labor costs and identifying &amp; eliminating sources of waste will allow clients to increase their bottom line."
+      ],
+      "additionalInfo": "",
+      "compatibility": [
+        "RPOS"
+      ],
+      "preferred": true,
+      "startingPrice": "",
+      "website": "www.goTenzo.com"
+    },
+    {
+      "id": "back-office",
+      "name": "Back Office",
+      "category": "management",
+      "description": "Formerly known as RASI (Restaurant Account Services Inc.), Back Office is an accounting and finance solution for restaurants to provide seamless payroll management, inventory management, and financial reporting.",
+      "integration": "Back Office does a daily poll of all guest details, job codes, sales categories, sales tax daily from the SpotOn POS for inventory, payroll, and inventory.",
+      "benefits": [
+        "Integrated Payroll.",
+        "No export/import required,",
+        "unless using Teamwork with Back Office",
+        ", which requires a CSV upload for tips data.",
+        "Inventory Control.",
+        "Food and Beverage with Actual versus Theoretical Reporting",
+        "Full Accounting",
+        ". Tax Compliance, Category Reporting, and General Ledger mapping"
+      ],
+      "additionalInfo": "",
+      "compatibility": [
+        "RPOS"
+      ],
+      "preferred": false,
+      "startingPrice": "",
+      "website": "https://restaurantaccountingservices.com/partnerships/spoton/"
+    },
+    {
+      "id": "restaurant-systems-pro",
+      "name": "Restaurant Systems Pro",
+      "category": "management",
+      "description": "Restaurant Systems Pro, an online restaurant management software, was developed from the ground up for independent restaurants by TheRestaurantExpert.com, a restaurant training and coaching company.",
+      "integration": "Restaurant Systems Pro pulls detailed data from the SpotOn POS such as daily sales, item Pmix, clock-ins/outs. Restaurant Systems Pro does not send any data to SpotOn POS.",
+      "benefits": [
+        "Robust Recipe Costing and Menu Engineering",
+        "Creating orders using the automatic par-level system takes the guesswork out of the ordering process",
+        "Improve Team Member Accountability with the Online Checklist System",
+        "100% customizable online manager log and employee checklists with email notifications"
+      ],
+      "additionalInfo": "",
+      "compatibility": [
+        "RPOS"
+      ],
+      "preferred": false,
+      "startingPrice": "",
+      "website": "https://restaurantsystemspro.net/features/"
+    },
+    {
+      "id": "compeat",
+      "name": "Compeat",
+      "category": "management",
+      "description": "Compeat provides accounting, inventory, and analytics all in one system. They also help manage scheduling, employee data, and payroll.",
+      "integration": "The SpotOn Restaurant POS captures orders, transactions, and timesheets and sends that data to Compeat. Compeat can send schedule data to SpotOn POS.",
+      "benefits": [
+        "Easily manage labor and stay compliant.",
+        "Simplify employee data using Compeat software to keep track of records, certifications, wage calculations, breaks, and rules.",
+        "Avoid accounting mistakes.",
+        "Gain more control of your bottom line by automating the accounting process.",
+        "Streamline scheduling.",
+        "Employees can access schedules from anywhere, swap shifts, and communicate with each other, while managers can create schedules faster."
+      ],
+      "additionalInfo": "",
+      "compatibility": [
+        "RPOS"
+      ],
+      "preferred": false,
+      "startingPrice": "",
+      "website": "https://portal.compeat.com/"
+    },
+    {
+      "id": "marqii",
+      "name": "Marqii",
+      "category": "management",
+      "description": "Marqii is designed to help restaurants maintain online consistency with menu, pricing, and long term hours of operation or locations.",
+      "integration": "The SpotOn Restaurant POS sends menu data and pricing to Marqii.",
+      "benefits": [
+        "Take Control.",
+        "43% of businesses in the US have at least one incorrect or missing address across directories. Control the way your business information is displayed online across search engines, social networks, apps, maps, and more.",
+        "Drive More Traffic.",
+        "4 in 5 local mobile searches result in a purchase. Drive more customers to your doorstep and convert local visitors into loyal customers.",
+        "Save Time.",
+        "Marqii users save an average of 7 hours each time they update their hours or menus across 80 online listings publishers, compared to making manual updates."
+      ],
+      "additionalInfo": "",
+      "compatibility": [
+        "RPOS"
+      ],
+      "preferred": false,
+      "startingPrice": "",
+      "website": "https://marqii.com/"
+    },
+    {
+      "id": "fobesoft",
+      "name": "FobeSoft",
+      "category": "management",
+      "description": "Fobesoft is a tool that shows a restaurant a full P&amp;L every day of the month compared to a custom budget.",
+      "integration": "By leveraging revenue and labor data from SpotOn, FobeSoft offers real-time insights into your restaurant's overall performance compared to projections.",
+      "benefits": [
+        "Custom Budget Building:",
+        "dedicated team of ex-operators will collaborate with you to create a tailored operating budget",
+        "Increase Profits:",
+        "Increase by 20% - 40% In Just 5 Minutes A Day",
+        "Daily P&amp;L Comparison:",
+        "Truly unlock the potential for increased profits. By monitoring a daily P&amp;L alongside the custom budget, restaurants gain a clear understanding of the numbers"
+      ],
+      "additionalInfo": "",
+      "compatibility": [
+        "RPOS"
+      ],
+      "preferred": false,
+      "startingPrice": "",
+      "website": "https://www.fobesoft.com/spoton.html"
+    },
+    {
+      "id": "fresh-kds",
+      "name": "Fresh KDS",
+      "category": "fulfillment",
+      "description": "KDS of the Now: Fresh is a comprehensive solution designed to significantly streamline kitchen operations in restaurants.",
+      "integration": "SpotOn and Fresh KDS have a rock-solid API Integration for all menu and order updates in real-time with complex routing, server updates to orders, and multiple view modes.",
+      "benefits": [
+        "Enhanced Customer Experience:",
+        "Reducing wait times and improving order accuracy. Fresh KDS also offers SMS messaging and Guest facing displays",
+        "Cost Savings:",
+        "By reducing waste associated with paper tickets and improving efficiency",
+        "Data-Driven Decision Making:",
+        "Restaurateurs can analyze data such as order bump times, ticket counts, sales, and labor by hour, product mix, etc"
+      ],
+      "additionalInfo": ": SpotOn offers ELO 15” and 22” All-in one Touch Screens for Fresh KDS. Add these and SaaS to your proposal! Fresh KDS demo video Fresh KDS sell sheet",
+      "compatibility": [
+        "RPOS"
+      ],
+      "preferred": true,
+      "startingPrice": "$899 + $20/mo",
+      "website": ""
+    },
+    {
+      "id": "deliverect",
+      "name": "Deliverect",
+      "category": "ordering",
+      "description": "Deliverect acts as a bridge between SpotOn POS and third-party delivery apps, automatically consolidating orders into a single interface. Their platform eliminates the need for manual order entry, reducing mistakes and enhancing kitchen efficiency.",
+      "integration": "Order Aggregation – Centralizing orders from third-party delivery platforms into SpotOn POS Menu Management – Syncing and updating menus across multiple marketplaces in real time Advanced Reporting – Providing insights into sales performance, order trends, and delivery efficiency Multi-Location Support – Allowing restaurant groups and franchises to manage multiple locations seamlessly",
+      "benefits": [
+        "Reliability and Speed:",
+        "&gt;99.5% order injection success rate and &lt;1 hour onboarding",
+        "Centralized Order Management:",
+        "Sync online orders from Uber Eats, DoorDash, Grubhub, and more into SpotOn, reducing errors and manual entry",
+        "Improved Order Accuracy:",
+        "Minimize mistakes with a real-time integration providing faster, more accurate order processing",
+        "Comprehensive Analytics:",
+        "Access key sales insights and trends in one place to drive smarter decisions"
+      ],
+      "additionalInfo": "",
+      "compatibility": [
+        "RPOS",
+        "Express"
+      ],
+      "preferred": true,
+      "startingPrice": "$100/mo",
+      "website": ""
+    },
+    {
+      "id": "doordash",
+      "name": "Doordash",
+      "category": "ordering",
+      "description": "The DoorDash integration directly connects your choice of DoorDash Marketplace (15-30% commission) and/or DoorDash Online Ordering (commission-free) and DoorDash Drive Delivery. Menus from the SpotOn POS are automatically kept in sync, and orders from Doordash are injected directly to the SpotOn POS (and can then be sent to printers or kitchen displays for fulfillment).",
+      "integration": "While DoorDash Marketplace orders incur standard marketplace commissions, restaurants can offset these costs by marking up prices for delivery and takeout orders made through DoorDash. The integration empowers merchants with improved profitability and simplified operations, making it an attractive option for businesses aiming to leverage third-party delivery without additional overhead.",
+      "benefits": [
+        "Cost Savings:",
+        "The direct integration eliminates the need for aggregators or additional hardware for restaurants to fulfill orders coming in from DoorDash.",
+        "Operational Efficiency:",
+        "Real-time synchronization of menus from SpotOn to DoorDash and orders from DoorDash to SpotOn, simplifying order management and improving accuracy.",
+        "Seamless Experience:",
+        "Orders flow directly into the POS (prepaid) and out to printers or kitchen display systems for fulfillment without any manual intervention, streamlining workflows and allowing staff to focus on service quality."
+      ],
+      "additionalInfo": "",
+      "compatibility": [
+        "RPOS",
+        "Express"
+      ],
+      "preferred": true,
+      "startingPrice": "$25/mo ONLINE ORDERING",
+      "website": ""
+    },
+    {
+      "id": "reddie",
+      "name": "Reddie",
+      "category": "ordering",
+      "description": "Reddie provides fully integrated kiosks and digital menu boards that sync directly with SpotOn POS (Express or RPOS). Orders flow seamlessly from kiosk → POS → KDS, reducing manual effort and improving kitchen efficiency. Merchants gain flexible hardware options (wall, countertop, freestanding) and customizable menu boards to match their brand.",
+      "integration": "POS Sync: Real-time integration with SpotOn Express and RPOS for order injection Menu Management : Centralized updates ensure kiosks and boards reflect live menu changes instantl y",
+      "benefits": [
+        "Orders flow seamlessly into SpotOn POS and KDS for faster, more accurate service",
+        "Supports wall-mounted, countertop, and freestanding kiosk configurations",
+        "Scales to handle more complex environments needing powerful kiosk/menu solutions"
+      ],
+      "additionalInfo": "",
+      "compatibility": [
+        "RPOS",
+        "Express"
+      ],
+      "preferred": true,
+      "startingPrice": "$XX/mo",
+      "website": "Reddie Kiosk Demo video Reddie Kiosk Self Order Key Features Reddie Kiosk Tutorial Videos Reddie Menu Board Brochure Reddie Kiosk Brochure"
+    },
+    {
+      "id": "bite-order-kiosks",
+      "name": "Bite - Order Kiosks",
+      "category": "ordering",
+      "description": "Bite provides smart kiosk ordering software for fast casual, quick-serve restaurants &amp; c-stores. Bite’s software is easy to customize the design, simple to manage, and quick to deploy; and since it’s integrated into the existing tech stack, brands can expect increased order accuracy, average check size, throughput and customer satisfaction.",
+      "integration": "The Bite/SpotOn integration allows for orders, menu updates, and payments to fluidly stream from Kiosk to Point of Sale. Currently loyalty/gift cards are not supported on Kiosk.",
+      "benefits": [
+        "20% Higher check Average:",
+        "Patented Artificial Intelligence, Bite Lift, analyzes every transaction and makes real-time upsell recommendations",
+        "Save time",
+        "with automatic menu syncs with your POS and kiosk solution, so you only need to edit once",
+        "Ensure your operations run smoothly",
+        "with kiosk orders flowing directly into your POS and KDS"
+      ],
+      "additionalInfo": "",
+      "compatibility": [
+        "RPOS"
+      ],
+      "preferred": false,
+      "startingPrice": "",
+      "website": ""
+    },
+    {
+      "id": "chowly",
+      "name": "Chowly",
+      "category": "ordering",
+      "description": "Chowly is a digital ordering aggregator that enables 3rd party delivery marketplaces to integrate directly with SpotOn RPOS.",
+      "integration": "Chowly uses our menu and order APIs to ensure all updates and item statuses are automatically reflected in 3rd party marketplaces - and orders from marketplaces flow directly into our POS.",
+      "benefits": [
+        "Save time",
+        "managing two solutions and ensure your menu is always up-to-date with an automatic two-way sync",
+        "Increase customer satisfaction",
+        "by ensuring item availability and 86 status is always reflected in your 3rd party marketplaces",
+        "Create flexible menus",
+        "by utilizing timed menus, which enables you to have different menus for set times throughout the day"
+      ],
+      "additionalInfo": "",
+      "compatibility": [
+        "RPOS",
+        "Express"
+      ],
+      "preferred": false,
+      "startingPrice": "$75/mo XPRS",
+      "website": ""
+    },
+    {
+      "id": "order-with-googl-e",
+      "name": "Order with Googl e",
+      "category": "ordering",
+      "description": "Order with Google allows merchants to direct guests from their Google Business Profile to their preferred online ordering channels for pickup and/or delivery. Additionally, merchants can mark their commission-free ordering channel as “Preferred by business” to save on commissions",
+      "integration": "Ordering options are integrated into Google Search results for quick and easy redirects to their pickup and/or delivery ordering sites.",
+      "benefits": [
+        "Increase traffic.",
+        "Gain additional visibility to potential customers from a customized Google business page that promotes your off-premise ordering channels.",
+        "Save money.",
+        "Pay no commissions or additional fees on guest orders placed through the merchant’s preferred commission-free ordering channel (e.g., SpotOn Order, DoorDash Online Ordering)",
+        "Save time.",
+        "Automatically send online orders sent straight to your POS"
+      ],
+      "additionalInfo": "",
+      "compatibility": [
+        "RPOS",
+        "Express"
+      ],
+      "preferred": false,
+      "startingPrice": "",
+      "website": ""
+    },
+    {
+      "id": "captain-ai",
+      "name": "Captain AI",
+      "category": "ordering",
+      "description": "CaptainAI is an in-house delivery driver management solution that integrates with SpotOn Restaurant point-of-sale to help manage and optimize routes for deliveries more effectively.",
+      "integration": "Captain AI and SpotOn Restaurant POS share bi-lateral communication for order status, items, delivery status, and order owner, as well as system users. CaptainAI does not work with Checkmate ingested orders.",
+      "benefits": [
+        "Increase customer satisfaction.",
+        "Driver Tracking and en-route updates for guest visibility via SMS Link.",
+        "Increase throughput",
+        ". With Optimized, efficient routes, drivers can complete more deliveries in a shorter amount of time!",
+        "Driver OverFlow:",
+        "Use FleetShare to add an Uber/DoorDash Driver as needed!"
+      ],
+      "additionalInfo": "",
+      "compatibility": [
+        "RPOS"
+      ],
+      "preferred": false,
+      "startingPrice": "",
+      "website": ""
+    },
+    {
+      "id": "uber-eats",
+      "name": "Uber Eats",
+      "category": "ordering",
+      "description": "SpotOn has a direct, fully integrated partnership with Uber Eats that connects Uber’s consumer demand directly into the SpotOn POS. This integration eliminates the need for tablets or third-party aggregators, automatically syncing menus, item availability, pricing, and incoming orders in real time. Orders route straight to the POS, KDS, and kitchen printers for accurate prep and seamless operations. The collaboration enhances merchant efficiency, reduces errors, and provides unified reporting while helping restaurants capture incremental revenue from Uber’s marketplace.",
+      "integration": "Bring Uber demand directly into SpotOn. Orders from the Uber Eats app route straight into the POS—no tablets, no manual re-keying. Menus stay perfectly in sync. SpotOn automatically publishes items, prices, and availability to Uber Eats in real time. Operational efficiency built in. Prep times, modifiers, and order tickets flow to your KDS or printers exactly as they should. Centralized insights. Uber Eats sales and item performance roll into SpotOn reporting for clean reconciliation.",
+      "benefits": [
+        "Reach more guests instantly by tapping into Uber’s massive user base and high-intent diners.",
+        "Eliminate tablet chaos with orders flowing directly into SpotOn POS—no re-keying, no missed tickets.",
+        "Keep menus always accurate with real-time syncing for items, pricing, and availability.",
+        "Improve speed &amp; accuracy with POS-native routing to KDS and kitchen printers.",
+        "Boost growth using Uber’s ads, offers, and Uber One loyalty audience for higher visibility."
+      ],
+      "additionalInfo": "",
+      "compatibility": [
+        "RPOS",
+        "Express"
+      ],
+      "preferred": true,
+      "startingPrice": "In Core Bunlde or $25/mo ONLINE ORDERING",
+      "website": ""
+    },
+    {
+      "id": "loman-ai",
+      "name": "Loman AI",
+      "category": "ordering",
+      "description": "Loman AI is a technology company that provides a 24/7 AI phone answering service tailored for restaurants. Their platform integrates seamlessly with RPOS and Express, enabling restaurants to automate phone-based tasks such as order taking and customer inquiries. This automation helps restaurants reduce labor costs, minimize human error, and enhance customer service.",
+      "integration": "24/7 AI Phone Answering : Loman AI  ensures that every call is answered promptly, regardless of time, eliminating missed orders and reducing wait times Full Order Taking : The AI agent can take complete orders, including upselling items like drinks or desserts, directly injecting them into the merchant’s POS. Multilingual Support : The platform offers bilingual or multilingual capabilities, catering to diverse customer bases. Available for Loman’s menu-only offering at this time. Analytics Dashboard : Provides insights into revenue from phone orders, call trends, customer patterns, and staff efficiency, aiding in data-driven decision-making. Reservation Management : Loman AI handles reservations via OpenTable only  by booking, confirming, and managing them, syncing directly with reservation platforms.",
+      "benefits": [
+        "24/7 Coverage",
+        "Capture orders, reservations, and questions even when your restaurant is closed.",
+        "Staff Productivity",
+        "Free up front-of-house teams from constant phone interruptions.",
+        "Higher Revenue",
+        "Never miss an order, upsell automatically, and handle multiple calls simultaneously.",
+        "Better Customer Experience",
+        "Customers never get a busy signal or voicemail.",
+        "Data &amp; Insights",
+        "Track call volume, order value, peak call times, and customer preferences."
+      ],
+      "additionalInfo": "",
+      "compatibility": [
+        "RPOS",
+        "Express"
+      ],
+      "preferred": true,
+      "startingPrice": "loman.ai/pricing Phone answering &amp; ordering",
+      "website": ""
+    },
+    {
+      "id": "7shifts",
+      "name": "7Shifts",
+      "category": "labor",
+      "description": "7Shifts is a restaurant-specific labor and team-management platform, allowing restaurants to easily manage their labor schedules, timesheets, communication, tasks, and tips all in one place.",
+      "integration": "This integration will automatically sync SpotOn POS data to 7Shifts every 5 minutes, eliminating the need for manual entry.",
+      "benefits": [
+        "Synced data.",
+        "Ensure payroll is complete and accurate with wages and employee information synced between 7Shifts and SpotOn POS.",
+        "**NOTE: TIPS DATA DOES NOT SYNC TO 7SHIFTS**",
+        "Real-time labor &amp; reporting data.",
+        "With SpotOn sales data, 7Shifts will provide insight into labor operations and allow clients to find gaps they need to change.",
+        "Efficient scheduling.",
+        "Detailed sales and labor data reports will allow clients to analyze understaffing/overstaffing and adjust schedules accordingly to save revenue."
+      ],
+      "additionalInfo": "",
+      "compatibility": [
+        "RPOS"
+      ],
+      "preferred": true,
+      "startingPrice": "$39.99/mo/location",
+      "website": "Demo video 7shifts payroll overview"
+    },
+    {
+      "id": "ipos-incontrol",
+      "name": "iPOS - InControl",
+      "category": "labor",
+      "description": "InControl Solutions is a direct sync provider for restaurants.",
+      "integration": "iPOS Payroll Interface for the SpotOn POS system gets the payroll data from your SpotOn POS system and prepares it for transfer to your payroll provider.",
+      "benefits": [
+        "Prevent errors by directly syncing data to payroll. It's a one-button click that's easy, fast and will save you hours of effort each pay period.",
+        "Supports all the major payroll providers in the US."
+      ],
+      "additionalInfo": "",
+      "compatibility": [
+        "RPOS"
+      ],
+      "preferred": false,
+      "startingPrice": "",
+      "website": "https://incontrolpos.com/products/pos/spoton/spoton-payroll"
+    },
+    {
+      "id": "tiphaus",
+      "name": "TipHaus",
+      "category": "labor",
+      "description": "TipHaus is a tip calculation and distribution service.",
+      "integration": "This integration sends data from the POS to TipHaus to determine which employees should receive tips from a given shift and what percentage each should receive.",
+      "benefits": [
+        "Prevent errors by directly syncing data to payroll. It's a one-button click that's easy, fast and will save you hours of effort each pay period.",
+        "Supports all the major payroll providers in the US."
+      ],
+      "additionalInfo": "",
+      "compatibility": [
+        "RPOS"
+      ],
+      "preferred": false,
+      "startingPrice": "$ by quote",
+      "website": ": https://tiphaus.com/"
+    },
+    {
+      "id": "ovation",
+      "name": "Ovation",
+      "category": "guest",
+      "description": "Ovation is an actionable guest feedback platform that drives revenue for restaurants through frictionless, 2-question, SMS-based surveys. Ovation then encourages happy guests to leave 5-star reviews, and asks unhappy guests to share privately what went wrong in order to easily and instantly resolve any concerns.",
+      "integration": "Through the SpotOn integration, Ovation will automatically send a survey to any guest placing an order through SpotOn Online Ordering or Point of Sale (when a customer profile is attached) 30 minutes after the transaction.",
+      "benefits": [
+        "High Response Rate:",
+        "Ovation receives 18-22% response rates on its survey vs 1-2% via Email surveys",
+        "Problem Resolution:",
+        "Ovation allows you to communicate with your guests in real-time via SMS, which allows you to respond to unhappy guests and resolve their concerns"
+      ],
+      "additionalInfo": "rmation: Ovation can (and does) work with all restaurants. Ovation can work with everything from 1 location to 500 locations and everything in between.",
+      "compatibility": [
+        "RPOS"
+      ],
+      "preferred": true,
+      "startingPrice": "",
+      "website": ""
+    },
+    {
+      "id": "inkind",
+      "name": "inKind",
+      "category": "guest",
+      "description": "inKind offers capital to restaurants by purchasing food and beverage credits from the restaurant. inKind then resells the credits to the restaurant’s guests.",
+      "integration": "The SpotOn Restaurant POS sends order details to inKind so guests can pay through the app.",
+      "benefits": [
+        "Customer engagement.",
+        "Guests with credits are more loyal to the restaurant, visit more often, and spend more than the gift card value.",
+        "Earn up to 20% back on inKind credit.",
+        "Restaurants make money if credit is not redeemed by guests.",
+        "Increase cash flow.",
+        "inKind sells high-dollar gift cards at a discount to encourage loyalty and return visits while providing the restaurant with additional cash upfront."
+      ],
+      "additionalInfo": "",
+      "compatibility": [
+        "RPOS"
+      ],
+      "preferred": true,
+      "startingPrice": "",
+      "website": "https://inkindcapital.com/spoton"
+    },
+    {
+      "id": "incentivio",
+      "name": "Incentivio",
+      "category": "guest",
+      "description": "Experience the power of a customizable restaurant app, designed for efficient mobile ordering and tailored to your brand's unique identity. A white-label restaurant app solution offers native iOS and Android apps that ensure rapid load times, captivating animations, and outstanding responsiveness.",
+      "integration": "SpotOn and Incentivio offer integrated web and app ordering, including integrated payments, menu updates, and automatic 86ing.",
+      "benefits": [
+        "Custom app:",
+        "Fully customizable restaurant app will feature unique branding, colors, logos, and menu images",
+        "Analytics:",
+        "Measure your restaurant’s productivity and efficiency",
+        "Powerful Marketing",
+        "create customizable segments to power your targeted marketing campaigns."
+      ],
+      "additionalInfo": "rmation: Discounted SpotOn Rates! $1000/Onboarding and setup fee followed by Monthly Saas https://www.incentivio.com/integrations/spoton",
+      "compatibility": [
+        "RPOS"
+      ],
+      "preferred": false,
+      "startingPrice": "",
+      "website": ""
+    },
+    {
+      "id": "ecard-systems",
+      "name": "eCard Systems",
+      "category": "guest",
+      "description": "For restaurant gift cards, eCard Systems (ECS) is the trusted third-party leader in the space, and SpotOn’s new exclusive partner.",
+      "integration": "",
+      "benefits": [
+        "Durability:",
+        "Credit card quality that’s sturdier and wears less over time with brighter colors",
+        "Customization:",
+        "Choice of glossy vs. matte laminate finish, plus custom art vs. stock designs",
+        "Multi-Location Pooling:",
+        "Redemption values can be auto-transferred across multiple bank accounts",
+        "Digital Platform:",
+        "Easy-to-use online portal for merchants to place gift card orders",
+        "QR Code to Check Balance:",
+        "Seamlessly scan the back of a gift card to see card balance"
+      ],
+      "additionalInfo": "",
+      "compatibility": [
+        "RPOS",
+        "Express"
+      ],
+      "preferred": false,
+      "startingPrice": "",
+      "website": ""
+    },
+    {
+      "id": "bartrack",
+      "name": "BarTrack",
+      "category": "bar",
+      "description": "BarTrack’s Plug-and-Play sensor installs into any draft system, and is the first beverage sensor with no obstructions and no moving parts. We are NOT a turbine flow meter! BarTrack customers view real-time keg levels, inventory, pressures, temperatures, cooler temperatures, and automate beverage costs.",
+      "integration": "BarTrack has a read-only integration with SpotOn to balance product sales-mix to the inventory tracked for Beer Kegs, Bottles and Cans.",
+      "benefits": [
+        "Boost Profits:",
+        "Reduce foaming, automatically compare pours to sales in an hourly breakdown, and prevent product from going missing.",
+        "Automate Inventory:",
+        "See real-time inventory from anywhere. Optimize re-ordering by knowing exactly how much inventory is left.",
+        "Full Bar Management:",
+        "Manage entire beverage program on one platform: beverage sensors, digital TV &amp; QR menus, bottle &amp; can inventory."
+      ],
+      "additionalInfo": "",
+      "compatibility": [
+        "RPOS"
+      ],
+      "preferred": false,
+      "startingPrice": "",
+      "website": ""
+    },
+    {
+      "id": "barvision",
+      "name": "BarVision",
+      "category": "bar",
+      "description": "Wireless Pour Liquor spouts and Tap Sensors!! Begin with sensor-based Smart Spouts that record what, when, and how much is poured. Then, using AI technology,  identify and share issues that affect your bar’s operations and profitability.",
+      "integration": "BarVision uses SpotOn Data to compare the alcohol Pours to the POS drink charges for accuracy and problem identification.",
+      "benefits": [
+        "Accuracy:",
+        "Patented wireless Smart Spouts and Beer Tap Sensors precisely track every pour",
+        "Ease of Use:",
+        "Enable high flow rate and accurate, consistent pours",
+        "Make More Money",
+        "Use Key metrics to drive change and grow profit margin",
+        "Personal Advisor",
+        "guides merchants through onboarding, reviews pour and POS data and establishes a baseline, then delivers personalized insights"
+      ],
+      "additionalInfo": "",
+      "compatibility": [
+        "RPOS"
+      ],
+      "preferred": false,
+      "startingPrice": "",
+      "website": "https://barvision.com/spot-on-pos-landing-page/"
+    },
+    {
+      "id": "beersaver",
+      "name": "BeerSAVER",
+      "category": "bar",
+      "description": "US BeerSAVER is a draft beer metering system that monitors unaccounted pours and over-pours, as well as beer temps! Reduce costs with a draft monitoring system that compares pours to SpotOn Restaurant POS sales data, ensuring unaccounted and over-pours are tracked.",
+      "integration": "US BeerSaver has read-only visibility to SpotOn Restaurant Sales data for beverage pour mapping.",
+      "benefits": [
+        "Reduce beverage waste.",
+        "Compare actual vs. theoretical pours in your bar to account for every beverage poured and reduce waste and theft.",
+        "Monitor theft.",
+        "Track every staff member’s pours with BeerSAVER and SpotOn to find hold your team accountable and find areas of improvement.",
+        "Increase profit margin.",
+        "Gain valuable insights in your bar to decrease the amount of inventory needed and boost profit margins."
+      ],
+      "additionalInfo": "",
+      "compatibility": [
+        "RPOS"
+      ],
+      "preferred": false,
+      "startingPrice": "",
+      "website": ""
+    },
+    {
+      "id": "bevchek",
+      "name": "BevChek",
+      "category": "bar",
+      "description": "Bevchek is a draft beverage monitoring and analytics platform providing merchants with real-time pour visibility and reporting.",
+      "integration": "Bevchek uses the SpotOn Restaurant POS sales data to analyze theoretical vs. actual pours to give insight into waste.",
+      "benefits": [
+        "Reduce beverage waste.",
+        "Use real data from both your draft and SpotOn POS to monitor actual vs. theoretical pours– to reduce shrinkage and make improvements as needed.",
+        "Monitor theft.",
+        "With Bevchek, you will see when a drink isn’t input into the POS.",
+        "Increase profit margin.",
+        "Control costs and the guest experience by decreasing waste, overpours, and theft using profit boosting features like temperature monitoring and draft system monitoring."
+      ],
+      "additionalInfo": "",
+      "compatibility": [
+        "RPOS"
+      ],
+      "preferred": false,
+      "startingPrice": "",
+      "website": ""
+    },
+    {
+      "id": "bevspot",
+      "name": "BevSpot",
+      "category": "bar",
+      "description": "BevSpot is an inventory partner with hands-on setup and support.",
+      "integration": "SpotOn Restaurant POS shares sales item and modifier data to BevSpot for real-time inventory.",
+      "benefits": [
+        "Real Time Reporting",
+        "for Food and Beverage Inventory",
+        "Manage Theft, Spoilage, and Waste",
+        "by comparing product Used versus Sales",
+        "HandsOn Smooth Onboarding",
+        "with recipe creation, inventory training, and ongoing customer success teams"
+      ],
+      "additionalInfo": "",
+      "compatibility": [
+        "RPOS"
+      ],
+      "preferred": false,
+      "startingPrice": "",
+      "website": "https://bevspot.com/"
+    },
+    {
+      "id": "cogs-well",
+      "name": "Cogs-Well",
+      "category": "bar",
+      "description": "COGS-Well provides Inventory Control, Recipe Management, Food &amp; Beverage Cost Analysis, and Commissary Management software for the restaurant industry.",
+      "integration": "COGS-Well receives item-specific sales data from SpotOn Restaurant POS for a read-only integration allowing COGS-well to keep track of inventory.",
+      "benefits": [
+        "COGS-Well does the initial setup for our customers, including the inventory database.",
+        "COGS-Well has a team of auditors that monitor invoices and verify or correct inventory item detail.",
+        "COGS-Well is an excellent fit for fast-casual, casual, and fine dining restaurants."
+      ],
+      "additionalInfo": "",
+      "compatibility": [
+        "RPOS"
+      ],
+      "preferred": false,
+      "startingPrice": "",
+      "website": ""
+    },
+    {
+      "id": "qsr-online",
+      "name": "QSR-Online",
+      "category": "bar",
+      "description": "QSROnline is a restaurant software that simplifies scheduling, inventory management, and payroll.",
+      "integration": "Back Office does a daily poll of all guest details, job codes, sales categories, sales tax daily from the SpotOn POS for inventory, payroll, and inventory.",
+      "benefits": [
+        "Simplify processes with one system.",
+        "Make sure your data matches your records. The QSROnline software pulls labor hours and sales data from the SpotOn Restaurant POS, which powers accurate inventory management and reporting for your restaurant."
+      ],
+      "additionalInfo": "",
+      "compatibility": [
+        "RPOS"
+      ],
+      "preferred": false,
+      "startingPrice": "",
+      "website": ""
+    },
+    {
+      "id": "sculpture-hospitality",
+      "name": "Sculpture Hospitality",
+      "category": "bar",
+      "description": "Sculpture Hospitality is a food and beverage inventory management system for bars and restaurants.",
+      "integration": "Manage inventory, monitor menu pricing, and control waste using sales information received from the SpotOn Restaurant POS.",
+      "benefits": [
+        "Menu pricing.",
+        "Ingredient costs and usage help clients to smartly and confidently calculate the price of each menu item.",
+        "Understand product usage.",
+        "Gain insight into where there are inventory losses with data from SpotOn POS.",
+        "Increase profit margins.",
+        "With accurate menu pricing, inventory tracking, and the ability to minimize food and beverage loss, clients will be able to increase their profit margins."
+      ],
+      "additionalInfo": "",
+      "compatibility": [
+        "RPOS"
+      ],
+      "preferred": false,
+      "startingPrice": "",
+      "website": ""
+    }
+  ]
+}

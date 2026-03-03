@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# scratch files
+full_extracted_text.txt
+content_temp/
+extracted_text.txt
+parse_integrations.js
